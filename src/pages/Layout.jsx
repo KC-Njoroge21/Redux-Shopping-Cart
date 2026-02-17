@@ -1,8 +1,11 @@
 import React from 'react'
+import ProductItem from '../components/ProductItem'
 
 const Layout = () => {
   return (
-    <div>Layout</div>
+    <div>
+      <ProductItem />
+    </div>
   )
 }
 
